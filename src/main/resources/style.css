@@ -1,0 +1,297 @@
+.backgroundWelcome {
+    -fx-background-image: url("backGrounds/WelcomeBackGround.png");
+    -fx-background-repeat: stretch;
+    -fx-background-size: cover;
+}
+
+.backgroundmenu {
+    -fx-background-image: url("backGrounds/MenuBackGround.jpeg");
+    -fx-background-repeat: stretch;
+    -fx-background-size: cover;
+}
+
+.background-lobby {
+    -fx-background-image: url("backGrounds/LobbyBackGround.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-size: cover;
+}
+
+.background-player1-lobby {
+    -fx-background-image: url("images/Wolf.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-size: cover;
+}
+
+.background-player2-lobby {
+    -fx-background-image: url("images/Leaf.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-size: cover;
+}
+
+.background-player3-lobby {
+    -fx-background-image: url("images/Mushroom.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-size: cover;
+}
+
+.background-player4-lobby {
+    -fx-background-image: url("images/Butterfly.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-size: cover;
+}
+
+.background-in-game {
+    -fx-background-image: url("backGrounds/InGameBackGround.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-size: cover;
+}
+
+.background-in-game-field {
+    -fx-background-image: url("backGrounds/FieldBackGround.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-size: cover;
+}
+
+.background-end-game {
+    -fx-background-image: url("backGrounds/EndGameBackGround.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-size: cover;
+}
+
+.text-nickname-welcome {
+    -fx-font-size: 72px; /* Very large text size */
+    -fx-font-weight: bold; /* Bold font weight */
+    /*-fx-font-family: "Papyrus", "Comic Sans MS", fantasy; /* Font type, fallback to fantasy style fonts */
+    -fx-text-fill: #f4f1c9; /* Aged parchment-like text color */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.6), 5, 0, 0, 2); /* Text shadow for depth */
+    -fx-background-color: rgba(218, 165, 32, 0.5); /* Semi-transparent golden background */
+    -fx-padding: 20px; /* Increased padding around text */
+    -fx-background-radius: 10px; /* Rounded corners for background */
+    -fx-border-color: black; /* Border color */
+    -fx-border-width: 3px; /* Increased border width */
+    -fx-border-radius: 10px; /* Border radius to match background radius */
+}
+
+.golden-background { /* Used for the NickName background */
+    -fx-background-color: rgba(255, 215, 0, 0.4); /* Gold color with 40% opacity */
+}
+
+/* Base style for menuButtonStyle */
+.menuButtonStyle {
+    -fx-padding: 8 15 15 15; /* Sets the padding inside the button: top, right, bottom, left */
+    -fx-background-insets: 0, 0 0 5 0, 0 0 6 0, 0 0 7 0; /* Defines the insets for multiple background layers */
+    -fx-background-radius: 8; /* Rounds the corners of the background with a radius of 8px */
+    -fx-background-color: /* Sets multiple layers of background colors using gradients */
+            linear-gradient(from 0% 93% to 0% 100%, #a34313 0%, #903b12 100%), /* Linear gradient for depth effect */
+            #9d4024, /* Solid color layer */
+            #d86e3a, /* Another solid color layer */
+            radial-gradient(center 50% 50%, radius 100%, #d86e3a, #c54e2c); /* Radial gradient for a spotlight effect */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.75), 4, 0, 0, 1); /* Adds a drop shadow with specified blur and color */
+    -fx-font-weight: bold; /* Makes the font bold */
+    -fx-font-size: 22; /* Sets the font size to 22px */
+}
+
+.menuButtonStyle:hover {
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%, #a34313 0%, #903b12 100%),
+            #9d4024,
+            #d86e3a,
+            radial-gradient(center 50% 50%, radius 100%, #ea7f4b, #c54e2c);
+    -fx-font-size: 33px !important;
+}
+
+/* Pressed state style */
+.menuButtonStyle:pressed {
+    -fx-padding: 10 15 13 15; /* Adjusts the padding to simulate the button being pressed */
+    -fx-background-insets: 2 0 0 0, 2 0 3 0, 2 0 4 0, 2 0 5 0; /* Changes the background insets on press */
+}
+
+/* Style for text within menuButtonStyle */
+.menuButtonStyle Text {
+    -fx-fill: white; /* Sets the text color to white */
+    -fx-effect: dropshadow(gaussian, #a30000, 0, 0, 0, 2); /* Applies a red drop shadow to the text */
+}
+
+.menuButtonStyle2 {
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0, 0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%, #205ab0 0%, #5e79a6 100%),
+            #205ab0,
+            #5e79a6,
+            radial-gradient(center 50% 50%, radius 100%, #205ab0, #5e79a6);
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.75), 4, 0, 0, 1);
+    -fx-font-weight: bold;
+    -fx-font-size: 22;
+}
+
+.menuButtonStyle2:hover {
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%, #205ab0 0%, #5e79a6 100%),
+            #205ab0,
+            #5e79a6,
+            radial-gradient(center 50% 50%, radius 100%, #205ab0, #5e79a6);
+    -fx-font-size: 33px !important;
+}
+
+.menuButtonStyle2:pressed {
+    -fx-padding: 10 15 13 15;
+    -fx-background-insets: 2 0 0 0, 2 0 3 0, 2 0 4 0, 2 0 5 0;
+}
+
+.menuButtonStyle3 {
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0, 0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%, #138112 0%, #739b6a 100%),
+            #138112,
+            #739b6a,
+            radial-gradient(center 50% 50%, radius 100%, #138112, #739b6a);
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.75), 4, 0, 0, 1);
+    -fx-font-weight: bold;
+    -fx-font-size: 22;
+}
+
+.menuButtonStyle3:hover {
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%, #138112 0%, #739b6a 100%),
+            #138112,
+            #739b6a,
+            radial-gradient(center 50% 50%, radius 100%, #138112, #739b6a);
+    -fx-font-size: 33px !important;
+}
+
+.menuButtonStyle3:pressed {
+    -fx-padding: 10 15 13 15;
+    -fx-background-insets: 2 0 0 0, 2 0 3 0, 2 0 4 0, 2 0 5 0;
+}
+
+.menuButtonStyle3 Text {
+    -fx-fill: white;
+    -fx-effect: dropshadow(gaussian, #a30000, 0, 0, 0, 2);
+}
+
+.menuButtonStyle4 {
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0, 0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%, #ffff00 0%, #c9a730 100%),
+            #ffff00,
+            #c9a730,
+            radial-gradient(center 50% 50%, radius 100%, #ffff00, #c9a730);
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.75), 4, 0, 0, 1);
+    -fx-font-weight: bold;
+    -fx-font-size: 22;
+}
+
+.menuButtonStyle4:hover {
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%, #ffff00 0%, #c9a730 100%),
+            #ffff00,
+            #c9a730,
+            radial-gradient(center 50% 50%, radius 100%, #ffff00, #c9a730);
+    -fx-font-size: 33px !important;
+}
+
+.menuButtonStyle4:pressed {
+    -fx-padding: 10 15 13 15;
+    -fx-background-insets: 2 0 0 0, 2 0 3 0, 2 0 4 0, 2 0 5 0;
+}
+
+.menuButtonStyle4 Text {
+    -fx-fill: white;
+    -fx-effect: dropshadow(gaussian, #a30000, 0, 0, 0, 2);
+}
+
+.menuButtonStyle5 {
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0, 0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%, #fb9d32 0%, #fb8332 100%),
+            #fb9d32,
+            #fb8332,
+            radial-gradient(center 50% 50%, radius 100%, #fb9d32, #fb8332);
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.75), 4, 0, 0, 1);
+    -fx-font-weight: bold;
+    -fx-font-size: 22;
+}
+
+.menuButtonStyle5:hover {
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%, #c4ee2c 0%, #64ee2c 100%),
+            #c4ee2c,
+            #64ee2c,
+            radial-gradient(center 50% 50%, radius 100%, #c4ee2c, #64ee2c);
+    -fx-font-size: 22px !important;
+}
+
+.menuButtonStyle5:pressed {
+    -fx-padding: 10 15 13 15;
+    -fx-background-insets: 2 0 0 0, 2 0 3 0, 2 0 4 0, 2 0 5 0;
+}
+
+.menuButtonStyle5 Text {
+    -fx-fill: white;
+    -fx-effect: dropshadow(gaussian, #a30000, 0, 0, 0, 2);
+}
+
+.formPanel {
+    visibility: hidden;
+    -fx-border-radius: 3px !important;
+    -fx-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+
+    -fx-position: relative;
+    -fx-display: flex;
+    -fx-flex-direction: column;
+    -fx-width: 100%;
+    /*color: ;*/
+    -fx-pointer-events: auto;
+    -fx-background-color: #fcf5e2;
+    -fx-background-clip: padding-box;
+    -fx-border-color: black;
+    -fx-border-width: 1px;
+    -fx-outline: 0;
+}
+
+.message-pane {
+    -fx-background-color: white;
+    color: black;
+    -fx-font-size: 20px; /* Very large text size */
+    -fx-font-weight: bold; /* Bold font weight */
+    /*-fx-font-family: "Papyrus", "Comic Sans MS", fantasy;  Font type, fallback to fantasy style fonts */
+    -fx-font-color: black; /* Aged parchment-like text color */
+}
+
+.token-color-red { /* Class for the red token */
+    -fx-background-image: url("tokens/red.png");
+    -fx-background-repeat: stretch;
+    -fx-background-size: cover;
+}
+
+.token-color-blue { /* Class for the blue token */
+    -fx-background-image: url("tokens/blue.png");
+    -fx-background-repeat: stretch;
+    -fx-background-size: cover;
+}
+
+.token-color-green { /* Class for the green token */
+    -fx-background-image: url("tokens/green.png");
+    -fx-background-repeat: stretch;
+    -fx-background-size: cover;
+}
+
+.token-color-yellow { /* Class for the yellow token */
+    -fx-background-image: url("tokens/yellow.png");
+    -fx-background-repeat: stretch;
+    -fx-background-size: cover;
+}
+
+.flip-icon-style { /* Class for the flip icon */
+    -fx-background-image: url("images/FlipIcon.png");
+    -fx-background-repeat: stretch;
+    -fx-background-size: cover;
+}

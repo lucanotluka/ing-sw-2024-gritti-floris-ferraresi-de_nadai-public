@@ -1,0 +1,254 @@
+[
+  {
+    "cardId": 87,
+    "type": "PATTERN_OBJECTIVE",
+    "pattern": [
+      {
+        "X": 0,
+        "Y": 0,
+        "symbol": "FUNGI"
+      },
+      {
+        "X": -1,
+        "Y": 1,
+        "symbol": "FUNGI"
+      },
+      {
+        "X": -2,
+        "Y": 2,
+        "symbol": "FUNGI"
+      }
+    ],
+    "points": 2
+  },
+
+  {
+    "cardId": 88,
+    "type": "PATTERN_OBJECTIVE",
+    "pattern": [
+      {
+        "X": 0,
+        "Y": 0,
+        "symbol": "PLANT"
+      },
+      {
+        "X": -1,
+        "Y": -1,
+        "symbol": "PLANT"
+      },
+      {
+        "X": -2,
+        "Y": -2,
+        "symbol": "PLANT"
+      }
+    ],
+    "points": 2
+  },
+
+  {
+    "cardId": 89,
+    "type": "PATTERN_OBJECTIVE",
+    "pattern": [
+      {
+        "X": 0,
+        "Y": 0,
+        "symbol": "ANIMAL"
+      },
+      {
+        "X": -1,
+        "Y": 1,
+        "symbol": "ANIMAL"
+      },
+      {
+        "X": -2,
+        "Y": 2,
+        "symbol": "ANIMAL"
+      }
+    ],
+    "points": 2
+  },
+
+  {
+    "cardId": 90,
+    "type": "PATTERN_OBJECTIVE",
+    "pattern": [
+      {
+        "X": 0,
+        "Y": 0,
+        "symbol": "INSECT"
+      },
+      {
+        "X": -1,
+        "Y": -1,
+        "symbol": "INSECT"
+      },
+      {
+        "X": -2,
+        "Y": -2,
+        "symbol": "INSECT"
+      }
+    ],
+    "points": 2
+  },
+
+  {
+    "cardId": 91,
+    "type": "PATTERN_OBJECTIVE",
+    "pattern": [
+      {
+        "X": 0,
+        "Y": 0,
+        "symbol": "PLANT"
+      },
+      {
+        "X": -1,
+        "Y": -1,
+        "symbol": "FUNGI"
+      },
+      {
+        "X": -3,
+        "Y": -1,
+        "symbol": "FUNGI"
+      }
+    ],
+    "points": 3
+  },
+
+  {
+    "cardId": 92,
+    "type": "PATTERN_OBJECTIVE",
+    "pattern": [
+      {
+        "X": 0,
+        "Y": 0,
+        "symbol": "INSECT"
+      },
+      {
+        "X": -1,
+        "Y": 1,
+        "symbol": "PLANT"
+      },
+      {
+        "X": -3,
+        "Y": 1,
+        "symbol": "PLANT"
+      }
+    ],
+    "points": 3
+  },
+
+  {
+    "cardId": 93,
+    "type": "PATTERN_OBJECTIVE",
+    "pattern": [
+      {
+        "X": 0,
+        "Y": 0,
+        "symbol": "ANIMAL"
+      },
+      {
+        "X": -2,
+        "Y": 0,
+        "symbol": "ANIMAL"
+      },
+      {
+        "X": -3,
+        "Y": 1,
+        "symbol": "FUNGI"
+      }
+    ],
+    "points": 3
+  },
+
+  {
+    "cardId": 94,
+    "type": "PATTERN_OBJECTIVE",
+    "pattern": [
+      {
+        "X": 0,
+        "Y": 0,
+        "symbol": "INSECT"
+      },
+      {
+        "X": -2,
+        "Y": 0,
+        "symbol": "INSECT"
+      },
+      {
+        "X": -3,
+        "Y": -1,
+        "symbol": "ANIMAL"
+      }
+    ],
+    "points": 3
+  },
+
+  {
+    "cardId": 95,
+    "type": "SYMBOL_OBJECTIVE",
+    "symbol1": "FUNGI",
+    "symbol2": "FUNGI",
+    "symbol3": "FUNGI",
+    "points": 2
+  },
+
+  {
+    "cardId": 96,
+    "type": "SYMBOL_OBJECTIVE",
+    "symbol1": "PLANT",
+    "symbol2": "PLANT",
+    "symbol3": "PLANT",
+    "points": 2
+  },
+
+  {
+    "cardId": 97,
+    "type": "SYMBOL_OBJECTIVE",
+    "symbol1": "ANIMAL",
+    "symbol2": "ANIMAL",
+    "symbol3": "ANIMAL",
+    "points": 2
+  },
+
+  {
+    "cardId": 98,
+    "type": "SYMBOL_OBJECTIVE",
+    "symbol1": "INSECT",
+    "symbol2": "INSECT",
+    "symbol3": "INSECT",
+    "points": 2
+  },
+
+  {
+    "cardId": 99,
+    "type": "SYMBOL_OBJECTIVE",
+    "symbol1": "QUILL",
+    "symbol2": "INKWELL",
+    "symbol3": "MANUSCRIPT",
+    "points": 3
+  },
+
+  {
+    "cardId": 100,
+    "type": "SYMBOL_OBJECTIVE",
+    "symbol1": "MANUSCRIPT",
+    "symbol2": "MANUSCRIPT",
+    "points": 2
+  },
+
+  {
+    "cardId": 101,
+    "type": "SYMBOL_OBJECTIVE",
+    "symbol1": "INKWELL",
+    "symbol2": "INKWELL",
+    "points": 2
+  },
+
+  {
+    "cardId": 102,
+    "type": "SYMBOL_OBJECTIVE",
+    "symbol1": "QUILL",
+    "symbol2": "QUILL",
+    "points": 2
+  }
+]

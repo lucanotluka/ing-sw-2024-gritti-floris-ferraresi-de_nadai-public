@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DialogPane?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1200.0" styleClass="background-in-game" stylesheets="@../../../style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.polimi.ingsw.view.gui.controllers.InGameController">
+   <children>
+      <Pane fx:id="content" prefHeight="750.0" prefWidth="1200.0" stylesheets="@../../../style.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ScrollPane fx:id="ScrollPaneField" layoutX="236.0" layoutY="293.0" prefHeight="440.0" prefWidth="946.0">
+              <content>
+                <AnchorPane fx:id="PlayField0" minHeight="0.0" minWidth="0.0" prefHeight="440.0" prefWidth="946.0" styleClass="background-in-game-field" stylesheets="@../../../style.css" />
+              </content>
+            </ScrollPane>
+            <Pane fx:id="ResourceTable2" layoutX="285.0" layoutY="213.0" onMouseClicked="#drawCardEvent" prefHeight="70.0" prefWidth="105.0" stylesheets="@../../../style.css" />
+            <Pane fx:id="Hand3" layoutX="1002.0" layoutY="186.0" onDragDetected="#setOnDragDetected" onDragDone="#setOnDragDone" prefHeight="70.0" prefWidth="105.0" stylesheets="@../../../style.css" />
+            <Pane fx:id="Hand2" layoutX="822.0" layoutY="186.0" onDragDetected="#setOnDragDetected" onDragDone="#setOnDragDone" prefHeight="70.0" prefWidth="105.0" stylesheets="@../../../style.css" />
+            <Pane fx:id="Hand1" layoutX="642.0" layoutY="186.0" onDragDetected="#setOnDragDetected" onDragDone="#setOnDragDone" prefHeight="70.0" prefWidth="105.0" stylesheets="@../../../style.css" />
+            <Button fx:id="buttonPlayer3" layoutX="1002.0" layoutY="78.0" mnemonicParsing="false" onAction="#ShowFieldPlayer3" prefHeight="70.0" prefWidth="105.0" text="Board 3" visible="false" />
+            <Button fx:id="buttonPlayer2" layoutX="822.0" layoutY="78.0" mnemonicParsing="false" onAction="#ShowFieldPlayer2" prefHeight="70.0" prefWidth="105.0" text="Board 2" visible="false" />
+            <Button fx:id="buttonPlayer1" layoutX="642.0" layoutY="78.0" mnemonicParsing="false" onAction="#ShowFieldPlayer1" prefHeight="70.0" prefWidth="105.0" text="Board 1" visible="false" />
+            <Pane fx:id="Objective3" layoutX="76.0" layoutY="213.0" prefHeight="70.0" prefWidth="105.0" stylesheets="@../../../style.css" />
+            <Pane fx:id="ResourceDeck" layoutX="285.0" layoutY="51.0" onMouseClicked="#drawCardEvent" prefHeight="70.0" prefWidth="105.0" stylesheets="@../../../style.css" />
+            <Pane fx:id="ResourceTable1" layoutX="285.0" layoutY="132.0" onMouseClicked="#drawCardEvent" prefHeight="70.0" prefWidth="105.0" stylesheets="@../../../style.css" />
+            <Pane fx:id="Objective2" layoutX="76.0" layoutY="132.0" prefHeight="70.0" prefWidth="105.0" stylesheets="@../../../style.css" />
+            <Pane fx:id="Objective1" layoutX="76.0" layoutY="51.0" prefHeight="70.0" prefWidth="105.0" stylesheets="@../../../style.css" />
+            <Pane fx:id="GoldTable2" layoutX="433.0" layoutY="213.0" onMouseClicked="#drawCardEvent" prefHeight="70.0" prefWidth="105.0" stylesheets="@../../../style.css" />
+            <Pane fx:id="GoldDeck" layoutX="433.0" layoutY="51.0" onMouseClicked="#drawCardEvent" prefHeight="70.0" prefWidth="105.0" stylesheets="@../../../style.css" />
+            <Pane fx:id="GoldTable1" layoutX="433.0" layoutY="132.0" onMouseClicked="#drawCardEvent" prefHeight="70.0" prefWidth="105.0" stylesheets="@../../../style.css" />
+            <Pane layoutX="18.0" layoutY="293.0" prefHeight="440.0" prefWidth="220.0">
+               <children>
+                  <ImageView fitHeight="440.0" fitWidth="220.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../scoreboard/plateau.png" />
+                     </image>
+                  </ImageView>
+                  <Pane fx:id="point00" layoutX="39.0" layoutY="391.0" prefHeight="38.0" prefWidth="38.0" stylesheets="@../../../style.css" />
+                  <Pane fx:id="point01" layoutX="91.0" layoutY="390.0" prefHeight="38.0" prefWidth="38.0" stylesheets="@../../../style.css" />
+                  <Pane fx:id="point02" layoutX="143.0" layoutY="391.0" prefHeight="38.0" prefWidth="38.0" stylesheets="@../../../style.css" />
+                  <Pane fx:id="point03" layoutX="169.0" layoutY="343.0" prefHeight="38.0" prefWidth="38.0" stylesheets="@../../../style.css" />
+                  <Pane fx:id="point04" layoutX="117.0" layoutY="343.0" prefHeight="38.0" prefWidth="38.0" stylesheets="@../../../style.css" />
+                  <Pane fx:id="point05" layoutX="65.0" layoutY="343.0" prefHeight="38.0" prefWidth="38.0" stylesheets="@../../../style.css" />
+                  <Pane fx:id="point06" layoutX="13.0" layoutY="343.0" prefHeight="38.0" prefWidth="38.0" stylesheets="@../../../style.css" />
+                  <Pane fx:id="point07" layoutX="13.0" layoutY="296.0" prefHeight="38.0" prefWidth="38.0" stylesheets="@../../../style.css" />
+                  <Pane fx:id="point08" layoutX="65.0" layoutY="295.0" prefHeight="38.0" prefWidth="38.0" stylesheets="@../../../style.css" />
+                  <Pane fx:id="point09" layoutX="117.0" layoutY="296.0" prefHeight="38.0" prefWidth="38.0" stylesheets="@../../../style.css" />
+                  <Pane fx:id="point10" layoutX="169.0" layoutY="296.0" prefHeight="38.0" prefWidth="38.0" stylesheets="@../../../style.css" />
+                  <Pane fx:id="point11" layoutX="169.0" layoutY="248.0" prefHeight="38.0" prefWidth="38.0" stylesheets="@../../../style.css" />
+                  <Pane fx:id="point12" layoutX="117.0" layoutY="248.0" prefHeight="38.0" prefWidth="38.0" stylesheets="@../../../style.css" />
+                  <Pane fx:id="point13" layoutX="65.0" layoutY="248.0" prefHeight="38.0" prefWidth="38.0" stylesheets="@../../../style.css" />
+                  <Pane fx:id="point14" layoutX="13.0" layoutY="248.0" prefHeight="38.0" prefWidth="38.0" stylesheets="@../../../style.css" />
+                  <Pane fx:id="point15" layoutX="13.0" layoutY="201.0" prefHeight="38.0" prefWidth="38.0" stylesheets="@../../../style.css" />
+                  <Pane fx:id="point16" layoutX="65.0" layoutY="201.0" prefHeight="38.0" prefWidth="38.0" stylesheets="@../../../style.css" />
+                  <Pane fx:id="point17" layoutX="117.0" layoutY="201.0" prefHeight="38.0" prefWidth="38.0" stylesheets="@../../../style.css" />
+                  <Pane fx:id="point18" layoutX="169.0" layoutY="201.0" prefHeight="38.0" prefWidth="38.0" stylesheets="@../../../style.css" />
+                  <Pane fx:id="point19" layoutX="168.0" layoutY="153.0" prefHeight="38.0" prefWidth="38.0" stylesheets="@../../../style.css" />
+                  <Pane fx:id="point20" layoutX="91.0" layoutY="131.0" prefHeight="38.0" prefWidth="38.0" stylesheets="@../../../style.css" />
+                  <Pane fx:id="point21" layoutX="14.0" layoutY="154.0" prefHeight="38.0" prefWidth="38.0" stylesheets="@../../../style.css" />
+                  <Pane fx:id="point22" layoutX="13.0" layoutY="106.0" prefHeight="38.0" prefWidth="38.0" stylesheets="@../../../style.css" />
+                  <Pane fx:id="point23" layoutX="13.0" layoutY="59.0" prefHeight="38.0" prefWidth="38.0" stylesheets="@../../../style.css" />
+                  <Pane fx:id="point24" layoutX="43.0" layoutY="20.0" prefHeight="38.0" prefWidth="38.0" stylesheets="@../../../style.css" />
+                  <Pane fx:id="point25" layoutX="91.0" layoutY="11.0" prefHeight="38.0" prefWidth="38.0" stylesheets="@../../../style.css" />
+                  <Pane fx:id="point26" layoutX="139.0" layoutY="20.0" prefHeight="38.0" prefWidth="38.0" stylesheets="@../../../style.css" />
+                  <Pane fx:id="point27" layoutX="168.0" layoutY="59.0" prefHeight="38.0" prefWidth="38.0" stylesheets="@../../../style.css" />
+                  <Pane fx:id="point28" layoutX="169.0" layoutY="106.0" prefHeight="38.0" prefWidth="38.0" stylesheets="@../../../style.css" />
+                  <Pane fx:id="point29" layoutX="91.0" layoutY="68.0" prefHeight="38.0" prefWidth="38.0" stylesheets="@../../../style.css" />
+               </children>
+            </Pane>
+            <DialogPane fx:id="ChooseCardDialog" layoutX="400.0" layoutY="250.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="480.0" visible="false">
+               <graphic>
+                  <AnchorPane prefHeight="300.0" prefWidth="480.0" styleClass="background-in-game" stylesheets="@../../../style.css">
+                     <children>
+                        <Button fx:id="DialogCard1" layoutX="40.0" layoutY="90.0" mnemonicParsing="false" onAction="#ChosedDialogCard" prefHeight="120.0" prefWidth="180.0" style="-fx-background-color: #f4f4f4;" stylesheets="@../../../style.css" />
+                        <Button fx:id="DialogCard2" layoutX="260.0" layoutY="90.0" mnemonicParsing="false" onAction="#ChosedDialogCard" prefHeight="120.0" prefWidth="180.0" style="-fx-background-color: #f4f4f4;" stylesheets="@../../../style.css" />
+                     </children>
+                  </AnchorPane>
+               </graphic>
+            </DialogPane>
+            <Pane prefHeight="40.0" prefWidth="1200.0" style="-fx-background-color: white;">
+               <children>
+                  <TextField fx:id="TopMessage" alignment="TOP_CENTER" editable="false" layoutX="18.0" layoutY="1.0" prefHeight="38.0" prefWidth="1164.0" styleClass="message-pane" stylesheets="@../../../style.css">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+               </children>
+            </Pane>
+            <DialogPane fx:id="ChooseTokenDialog" layoutX="400.0" layoutY="250.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="480.0" visible="false">
+               <graphic>
+                  <AnchorPane prefHeight="300.0" prefWidth="480.0" styleClass="background-in-game" stylesheets="@../../../style.css">
+                     <children>
+                        <!--<Button fx:id="token1" layoutX="32.0" layoutY="110.0" mnemonicParsing="false" onAction="#ChosedToken" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #f4f4f4;" styleClass="token-color-blue" stylesheets="@../style.css" visible="false" />
+                        <Button fx:id="token3" layoutX="144.0" layoutY="110.0" mnemonicParsing="false" onAction="#ChosedToken" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #f4f4f4;" styleClass="token-color-red" stylesheets="@../style.css" visible="false" />
+                        <Button fx:id="token4" layoutX="256.0" layoutY="110.0" mnemonicParsing="false" onAction="#ChosedToken" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #f4f4f4;" styleClass="token-color-yellow" stylesheets="@../style.css" visible="false" />
+                        <Button fx:id="token2" layoutX="368.0" layoutY="110.0" mnemonicParsing="false" onAction="#ChosedToken" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #f4f4f4;" styleClass="token-color-green" stylesheets="@../style.css" visible="false" />-->
+                        <Pane fx:id="token1" layoutX="32.0" layoutY="110.0" onMouseClicked="#ChosedToken" prefHeight="80.0" prefWidth="80.0" styleClass="token-color-blue" stylesheets="@../../../style.css" />
+                        <Pane fx:id="token2" layoutX="144.0" layoutY="110.0" onMouseClicked="#ChosedToken" prefHeight="80.0" prefWidth="80.0" styleClass="token-color-red" stylesheets="@../../../style.css" />
+                        <Pane fx:id="token3" layoutX="256.0" layoutY="110.0" onMouseClicked="#ChosedToken" prefHeight="80.0" prefWidth="80.0" styleClass="token-color-yellow" stylesheets="@../../../style.css" />
+                        <Pane fx:id="token4" layoutX="368.0" layoutY="110.0" onMouseClicked="#ChosedToken" prefHeight="80.0" prefWidth="80.0" styleClass="token-color-green" stylesheets="@../../../style.css" />
+                     </children>
+                  </AnchorPane>
+               </graphic>
+            </DialogPane>
+            <Button fx:id="flipIcon1" layoutX="747.0" layoutY="186.0" mnemonicParsing="false" onAction="#flipCard" prefHeight="30.0" prefWidth="30.0" styleClass="flip-icon-style" stylesheets="@../../../style.css" visible="false" />
+            <Button fx:id="flipIcon2" layoutX="927.0" layoutY="186.0" mnemonicParsing="false" onAction="#flipCard" prefHeight="30.0" prefWidth="30.0" styleClass="flip-icon-style" stylesheets="@../../../style.css" visible="false" />
+            <Button fx:id="flipIcon3" layoutX="1107.0" layoutY="186.0" mnemonicParsing="false" onAction="#flipCard" prefHeight="30.0" prefWidth="30.0" styleClass="flip-icon-style" stylesheets="@../../../style.css" visible="false" />
+            <DialogPane fx:id="PlayerDialog1" layoutX="127.0" layoutY="155.0" prefHeight="440.0" prefWidth="946.0" visible="false">
+               <graphic>
+                  <ScrollPane prefHeight="440.0" prefWidth="946.0">
+                     <content>
+                        <AnchorPane fx:id="PlayerField1" prefHeight="440.0" prefWidth="946.0" styleClass="background-in-game-field" stylesheets="@../../../style.css" />
+                     </content>
+                  </ScrollPane>
+               </graphic>
+            </DialogPane>
+            <DialogPane fx:id="PlayerDialog2" layoutX="127.0" layoutY="155.0" prefHeight="440.0" prefWidth="946.0" visible="false">
+               <graphic>
+                  <ScrollPane prefHeight="440.0" prefWidth="946.0">
+                     <content>
+                        <AnchorPane fx:id="PlayerField2" prefHeight="440.0" prefWidth="946.0" styleClass="background-in-game-field" stylesheets="@../../../style.css" />
+                     </content>
+                  </ScrollPane>
+               </graphic>
+            </DialogPane>
+            <DialogPane fx:id="PlayerDialog3" layoutX="127.0" layoutY="155.0" prefHeight="440.0" prefWidth="946.0" visible="false">
+               <graphic>
+                  <ScrollPane prefHeight="440.0" prefWidth="946.0">
+                     <content>
+                        <AnchorPane fx:id="PlayerField3" prefHeight="440.0" prefWidth="946.0" styleClass="background-in-game-field" stylesheets="@../../../style.css" />
+                     </content>
+                  </ScrollPane>
+               </graphic>
+            </DialogPane>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

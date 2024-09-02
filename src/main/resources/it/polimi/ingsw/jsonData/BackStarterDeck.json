@@ -1,0 +1,121 @@
+[
+  {
+    "cardId": 81,
+    "top_left": {
+      "type": "TOP_LEFT",
+      "symbol": "FUNGI"
+    },
+    "top_right": {
+      "type": "TOP_RIGHT",
+      "symbol": "PLANT"
+    },
+    "bot_left": {
+      "type": "BOT_LEFT",
+      "symbol": "INSECT"
+    },
+    "bot_right": {
+      "type": "BOT_RIGHT",
+      "symbol": "ANIMAL"
+    }
+  },
+
+  {
+    "cardId": 82,
+    "top_left": {
+      "type": "TOP_LEFT",
+      "symbol": "PLANT"
+    },
+    "top_right": {
+      "type": "TOP_RIGHT",
+      "symbol": "ANIMAL"
+    },
+    "bot_left": {
+      "type": "BOT_LEFT",
+      "symbol": "FUNGI"
+    },
+    "bot_right": {
+      "type": "BOT_RIGHT",
+      "symbol": "INSECT"
+    }
+  },
+
+  {
+    "cardId": 83,
+    "top_left": {
+      "type": "TOP_LEFT",
+      "symbol": "INSECT"
+    },
+    "top_right": {
+      "type": "TOP_RIGHT",
+      "symbol": "ANIMAL"
+    },
+    "bot_left": {
+      "type": "BOT_LEFT",
+      "symbol": "FUNGI"
+    },
+    "bot_right": {
+      "type": "BOT_RIGHT",
+      "symbol": "PLANT"
+    }
+  },
+
+  {
+    "cardId": 84,
+    "top_left": {
+      "type": "TOP_LEFT",
+      "symbol": "PLANT"
+    },
+    "top_right": {
+      "type": "TOP_RIGHT",
+      "symbol": "INSECT"
+    },
+    "bot_left": {
+      "type": "BOT_LEFT",
+      "symbol": "ANIMAL"
+    },
+    "bot_right": {
+      "type": "BOT_RIGHT",
+      "symbol": "FUNGI"
+    }
+  },
+
+  {
+    "cardId": 85,
+    "top_left": {
+      "type": "TOP_LEFT",
+      "symbol": "INSECT"
+    },
+    "top_right": {
+      "type": "TOP_RIGHT",
+      "symbol": "FUNGI"
+    },
+    "bot_left": {
+      "type": "BOT_LEFT",
+      "symbol": "PLANT"
+    },
+    "bot_right": {
+      "type": "BOT_RIGHT",
+      "symbol": "ANIMAL"
+    }
+  },
+
+  {
+    "cardId": 86,
+    "top_left": {
+      "type": "TOP_LEFT",
+      "symbol": "FUNGI"
+    },
+    "top_right": {
+      "type": "TOP_RIGHT",
+      "symbol": "ANIMAL"
+    },
+    "bot_left": {
+      "type": "BOT_LEFT",
+      "symbol": "PLANT"
+    },
+    "bot_right": {
+      "type": "BOT_RIGHT",
+      "symbol": "INSECT"
+    }
+  }
+]

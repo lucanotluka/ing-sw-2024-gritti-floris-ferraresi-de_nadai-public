@@ -1,0 +1,725 @@
+[
+  {
+    "cardId":1,
+    "symbol":"FUNGI",
+    "points":0,
+    "top_left": {
+      "symbol":"FUNGI",
+      "type":"TOP_LEFT"
+    },
+    "top_right": {
+      "symbol":"EMPTY",
+      "type":"TOP_RIGHT"
+    },
+    "bot_left": {
+      "symbol":"FUNGI",
+      "type":"BOT_LEFT"
+    }
+  },
+
+  {
+    "cardId":2,
+    "symbol":"FUNGI",
+    "points":0,
+    "top_left": {
+      "symbol":"FUNGI",
+      "type":"TOP_LEFT"
+    },
+    "top_right": {
+      "symbol":"FUNGI",
+      "type":"TOP_RIGHT"
+    },
+    "bot_right": {
+      "symbol":"EMPTY",
+      "type":"BOT_RIGHT"
+    }
+  },
+
+  {
+    "cardId":3,
+    "symbol":"FUNGI",
+    "points":0,
+    "top_left": {
+      "symbol":"EMPTY",
+      "type":"TOP_LEFT"
+    },
+    "bot_left": {
+      "symbol":"FUNGI",
+      "type":"BOT_LEFT"
+    },
+    "bot_right": {
+      "symbol":"FUNGI",
+      "type":"BOT_RIGHT"
+    }
+  },
+
+  {
+    "cardId":4,
+    "symbol":"FUNGI",
+    "points":0,
+    "top_right": {
+      "symbol":"FUNGI",
+      "type":"TOP_RIGHT"
+    },
+    "bot_left": {
+      "symbol":"EMPTY",
+      "type":"BOT_LEFT"
+    },
+    "bot_right": {
+      "symbol":"FUNGI",
+      "type":"BOT_RIGHT"
+    }
+  },
+
+  {
+    "cardId":5,
+    "symbol":"FUNGI",
+    "points":0,
+    "top_right": {
+      "symbol":"QUILL",
+      "type":"TOP_RIGHT"
+    },
+    "bot_left": {
+      "symbol":"PLANT",
+      "type":"BOT_LEFT"
+    },
+    "bot_right": {
+      "symbol":"FUNGI",
+      "type":"BOT_RIGHT"
+    }
+  },
+
+  {
+    "cardId":6,
+    "symbol":"FUNGI",
+    "points":0,
+    "top_left": {
+      "symbol":"INKWELL",
+      "type":"TOP_LEFT"
+    },
+    "top_right": {
+      "symbol":"FUNGI",
+      "type":"TOP_RIGHT"
+    },
+    "bot_right": {
+      "symbol":"ANIMAL",
+      "type":"BOT_RIGHT"
+    }
+  },
+
+  {
+    "cardId":7,
+    "symbol":"FUNGI",
+    "points":0,
+    "top_left": {
+      "symbol":"FUNGI",
+      "type":"TOP_LEFT"
+    },
+    "top_right": {
+      "symbol":"INSECT",
+      "type":"TOP_RIGHT"
+    },
+    "bot_left": {
+      "symbol":"MANUSCRIPT",
+      "type":"BOT_LEFT"
+    },
+    "bot_right": {
+      "symbol":"EMPTY",
+      "type":"BOT_RIGHT"
+    }
+  },
+
+  {
+    "cardId":8,
+    "symbol":"FUNGI",
+    "points":1,
+    "top_left": {
+      "symbol":"EMPTY",
+      "type":"TOP_LEFT"
+    },
+    "top_right": {
+      "symbol":"FUNGI",
+      "type":"TOP_RIGHT"
+    },
+    "bot_left": {
+      "symbol":"EMPTY",
+      "type":"BOT_LEFT"
+    }
+  },
+
+  {
+    "cardId":9,
+    "symbol":"FUNGI",
+    "points":1,
+    "top_left": {
+      "symbol":"FUNGI",
+      "type":"TOP_LEFT"
+    },
+    "bot_left": {
+      "symbol":"EMPTY",
+      "type":"BOT_LEFT"
+    },
+    "bot_right": {
+      "symbol":"EMPTY",
+      "type":"BOT_RIGHT"
+    }
+  },
+
+  {
+    "cardId":10,
+    "symbol":"FUNGI",
+    "points":1,
+    "top_right": {
+      "symbol":"EMPTY",
+      "type":"TOP_RIGHT"
+    },
+    "bot_left": {
+      "symbol":"FUNGI",
+      "type":"BOT_LEFT"
+    },
+    "bot_right": {
+      "symbol":"EMPTY",
+      "type":"BOT_RIGHT"
+    }
+  },
+
+  {
+    "cardId":11,
+    "symbol":"PLANT",
+    "points":0,
+    "top_left": {
+      "symbol":"PLANT",
+      "type":"TOP_LEFT"
+    },
+    "top_right": {
+      "symbol":"EMPTY",
+      "type":"TOP_RIGHT"
+    },
+    "bot_left": {
+      "symbol":"PLANT",
+      "type":"BOT_LEFT"
+    }
+  },
+
+  {
+    "cardId":12,
+    "symbol":"PLANT",
+    "points":0,
+    "top_left": {
+      "symbol":"PLANT",
+      "type":"TOP_LEFT"
+    },
+    "top_right": {
+      "symbol":"PLANT",
+      "type":"TOP_RIGHT"
+    },
+    "bot_right": {
+      "symbol":"EMPTY",
+      "type":"BOT_RIGHT"
+    }
+  },
+
+  {
+    "cardId":13,
+    "symbol":"PLANT",
+    "points":0,
+    "top_left": {
+      "symbol":"EMPTY",
+      "type":"TOP_LEFT"
+    },
+    "bot_left": {
+      "symbol":"PLANT",
+      "type":"BOT_LEFT"
+    },
+    "bot_right": {
+      "symbol":"PLANT",
+      "type":"BOT_RIGHT"
+    }
+  },
+
+  {
+    "cardId":14,
+    "symbol":"PLANT",
+    "points":0,
+    "top_right": {
+      "symbol":"PLANT",
+      "type":"TOP_RIGHT"
+    },
+    "bot_left": {
+      "symbol":"EMPTY",
+      "type":"BOT_LEFT"
+    },
+    "bot_right": {
+      "symbol":"PLANT",
+      "type":"BOT_RIGHT"
+    }
+  },
+
+  {
+    "cardId":15,
+    "symbol":"PLANT",
+    "points":0,
+    "top_right": {
+      "symbol":"INSECT",
+      "type":"TOP_RIGHT"
+    },
+    "bot_left": {
+      "symbol":"QUILL",
+      "type":"BOT_LEFT"
+    },
+    "bot_right": {
+      "symbol":"PLANT",
+      "type":"BOT_RIGHT"
+    }
+  },
+
+  {
+    "cardId":16,
+    "symbol":"PLANT",
+    "points":0,
+    "top_left": {
+      "symbol":"FUNGI",
+      "type":"TOP_LEFT"
+    },
+    "top_right": {
+      "symbol":"PLANT",
+      "type":"TOP_RIGHT"
+    },
+    "bot_right": {
+      "symbol":"INKWELL",
+      "type":"BOT_RIGHT"
+    }
+  },
+
+  {
+    "cardId":17,
+    "symbol":"PLANT",
+    "points":0,
+    "top_left": {
+      "symbol":"MANUSCRIPT",
+      "type":"TOP_LEFT"
+    },
+    "bot_left": {
+      "symbol":"PLANT",
+      "type":"BOT_LEFT"
+    },
+    "bot_right": {
+      "symbol":"ANIMAL",
+      "type":"BOT_RIGHT"
+    }
+  },
+
+  {
+    "cardId":18,
+    "symbol":"PLANT",
+    "points":1,
+    "top_left": {
+      "symbol":"EMPTY",
+      "type":"TOP_LEFT"
+    },
+    "top_right": {
+      "symbol":"EMPTY",
+      "type":"TOP_RIGHT"
+    },
+    "bot_left": {
+      "symbol":"PLANT",
+      "type":"BOT_LEFT"
+    }
+  },
+
+  {
+    "cardId":19,
+    "symbol":"PLANT",
+    "points":1,
+    "top_left": {
+      "symbol":"EMPTY",
+      "type":"TOP_LEFT"
+    },
+    "top_right": {
+      "symbol":"EMPTY",
+      "type":"TOP_RIGHT"
+    },
+    "bot_right": {
+      "symbol":"PLANT",
+      "type":"BOT_RIGHT"
+    }
+  },
+
+  {
+    "cardId":20,
+    "symbol":"PLANT",
+    "points":1,
+    "top_right": {
+      "symbol":"PLANT",
+      "type":"TOP_RIGHT"
+    },
+    "bot_left": {
+      "symbol":"EMPTY",
+      "type":"BOT_LEFT"
+    },
+    "bot_right": {
+      "symbol":"EMPTY",
+      "type":"BOT_RIGHT"
+    }
+  },
+
+  {
+    "cardId":21,
+    "symbol":"ANIMAL",
+    "points":0,
+    "top_left": {
+      "symbol":"ANIMAL",
+      "type":"TOP_LEFT"
+    },
+    "top_right": {
+      "symbol":"ANIMAL",
+      "type":"TOP_RIGHT"
+    },
+    "bot_left": {
+      "symbol":"EMPTY",
+      "type":"BOT_LEFT"
+    }
+  },
+
+  {
+    "cardId":22,
+    "symbol":"ANIMAL",
+    "points":0,
+    "top_right": {
+      "symbol":"EMPTY",
+      "type":"TOP_RIGHT"
+    },
+    "bot_left": {
+      "symbol": "ANIMAL",
+      "type": "BOT_LEFT"
+    },
+    "bot_right": {
+    "symbol":"ANIMAL",
+    "type":"BOT_RIGHT"
+    }
+  },
+
+  {
+    "cardId":23,
+    "symbol":"ANIMAL",
+    "points":0,
+    "top_left": {
+      "symbol":"ANIMAL",
+      "type":"TOP_LEFT"
+    },
+    "bot_left": {
+      "symbol":"ANIMAL",
+      "type":"BOT_LEFT"
+    },
+    "bot_right": {
+      "symbol":"EMPTY",
+      "type":"BOT_RIGHT"
+    }
+  },
+
+  {
+    "cardId":24,
+    "symbol":"ANIMAL",
+    "points":0,
+    "top_left": {
+      "symbol":"EMPTY",
+      "type":"TOP_LEFT"
+    },
+    "top_right": {
+      "symbol":"ANIMAL",
+      "type":"TOP_RIGHT"
+    },
+    "bot_right": {
+      "symbol":"ANIMAL",
+      "type":"BOT_RIGHT"
+    }
+  },
+
+  {
+    "cardId":25,
+    "symbol":"ANIMAL",
+    "points":0,
+    "top_right": {
+      "symbol":"INSECT",
+      "type":"TOP_RIGHT"
+    },
+    "bot_left": {
+      "symbol":"INKWELL",
+      "type":"BOT_LEFT"
+    },
+    "bot_right": {
+      "symbol":"ANIMAL",
+      "type":"BOT_RIGHT"
+    }
+  },
+
+  {
+    "cardId":26,
+    "symbol":"ANIMAL",
+    "points":0,
+    "top_left": {
+      "symbol":"PLANT",
+      "type":"TOP_LEFT"
+    },
+    "top_right": {
+      "symbol":"ANIMAL",
+      "type":"TOP_RIGHT"
+    },
+    "bot_right": {
+      "symbol":"MANUSCRIPT",
+      "type":"BOT_RIGHT"
+    }
+  },
+
+  {
+    "cardId":27,
+    "symbol":"ANIMAL",
+    "points":0,
+    "top_left": {
+      "symbol":"QUILL",
+      "type":"TOP_LEFT"
+    },
+    "bot_left": {
+      "symbol":"ANIMAL",
+      "type":"BOT_LEFT"
+    },
+    "bot_right": {
+      "symbol":"FUNGI",
+      "type":"BOT_RIGHT"
+    }
+  },
+
+  {
+    "cardId":28,
+    "symbol":"ANIMAL",
+    "points":1,
+    "top_right": {
+      "symbol":"EMPTY",
+      "type":"TOP_RIGHT"
+    },
+    "bot_left": {
+      "symbol":"ANIMAL",
+      "type":"BOT_LEFT"
+    },
+    "bot_right": {
+      "symbol":"EMPTY",
+      "type":"BOT_RIGHT"
+    }
+  },
+
+  {
+    "cardId":29,
+    "symbol":"ANIMAL",
+    "points":1,
+    "top_left": {
+      "symbol":"EMPTY",
+      "type":"TOP_LEFT"
+    },
+    "bot_left": {
+      "symbol":"EMPTY",
+      "type":"BOT_LEFT"
+    },
+    "bot_right": {
+      "symbol":"ANIMAL",
+      "type":"BOT_RIGHT"
+    }
+  },
+
+  {
+    "cardId":30,
+    "symbol":"ANIMAL",
+    "points":1,
+    "top_left": {
+      "symbol":"EMPTY",
+      "type":"TOP_LEFT"
+    },
+    "top_right": {
+      "symbol":"ANIMAL",
+      "type":"TOP_RIGHT"
+    },
+    "bot_left": {
+      "symbol":"EMPTY",
+      "type":"BOT_LEFT"
+    }
+  },
+
+  {
+    "cardId":31,
+    "symbol":"INSECT",
+    "points":0,
+    "top_left": {
+      "symbol":"INSECT",
+      "type":"TOP_LEFT"
+    },
+    "top_right": {
+      "symbol":"INSECT",
+      "type":"TOP_RIGHT"
+    },
+    "bot_left": {
+      "symbol":"EMPTY",
+      "type":"BOT_LEFT"
+    }
+  },
+
+  {
+    "cardId":32,
+    "symbol":"INSECT",
+    "points":0,
+    "top_right": {
+      "symbol":"EMPTY",
+      "type":"TOP_RIGHT"
+    },
+    "bot_left": {
+      "symbol":"INSECT",
+      "type":"BOT_LEFT"
+    },
+    "bot_right": {
+      "symbol":"INSECT",
+      "type":"BOT_RIGHT"
+    }
+  },
+
+  {
+    "cardId":33,
+    "symbol":"INSECT",
+    "points":0,
+    "top_left": {
+      "symbol":"INSECT",
+      "type":"TOP_LEFT"
+    },
+    "bot_left": {
+      "symbol":"INSECT",
+      "type":"BOT_LEFT"
+    },
+    "bot_right": {
+      "symbol":"EMPTY",
+      "type":"BOT_RIGHT"
+    }
+  },
+
+  {
+    "cardId":34,
+    "symbol":"INSECT",
+    "points":0,
+    "top_left": {
+      "symbol":"EMPTY",
+      "type":"TOP_LEFT"
+    },
+    "top_right": {
+      "symbol":"INSECT",
+      "type":"TOP_RIGHT"
+    },
+    "bot_right": {
+      "symbol":"INSECT",
+      "type":"BOT_RIGHT"
+    }
+  },
+
+  {
+    "cardId":35,
+    "symbol":"INSECT",
+    "points":0,
+    "top_right": {
+      "symbol":"QUILL",
+      "type":"TOP_RIGHT"
+    },
+    "bot_left": {
+      "symbol":"ANIMAL",
+      "type":"BOT_LEFT"
+    },
+    "bot_right": {
+      "symbol":"INSECT",
+      "type":"BOT_RIGHT"
+    }
+  },
+
+  {
+    "cardId":36,
+    "symbol":"INSECT",
+    "points":0,
+    "top_left": {
+      "symbol":"MANUSCRIPT",
+      "type":"TOP_LEFT"
+    },
+    "top_right": {
+      "symbol":"INSECT",
+      "type":"TOP_RIGHT"
+    },
+    "bot_right": {
+      "symbol":"FUNGI",
+      "type":"BOT_RIGHT"
+    }
+  },
+
+  {
+    "cardId":37,
+    "symbol":"INSECT",
+    "points":0,
+    "top_left": {
+      "symbol":"INSECT",
+      "type":"TOP_LEFT"
+    },
+    "top_right": {
+      "symbol":"PLANT",
+      "type":"TOP_RIGHT"
+    },
+    "bot_left": {
+      "symbol":"INKWELL",
+      "type":"BOT_LEFT"
+    }
+  },
+
+  {
+    "cardId":38,
+    "symbol":"INSECT",
+    "points":1,
+    "top_left": {
+      "symbol":"INSECT",
+      "type":"TOP_LEFT"
+    },
+    "bot_left": {
+      "symbol":"EMPTY",
+      "type":"BOT_LEFT"
+    },
+    "bot_right": {
+      "symbol":"EMPTY",
+      "type":"BOT_RIGHT"
+    }
+  },
+
+  {
+    "cardId":39,
+    "symbol":"INSECT",
+    "points":1,
+    "top_left": {
+      "symbol":"EMPTY",
+      "type":"TOP_LEFT"
+    },
+    "top_right": {
+      "symbol":"EMPTY",
+      "type":"TOP_RIGHT"
+    },
+    "bot_right": {
+      "symbol":"INSECT",
+      "type":"BOT_RIGHT"
+    }
+  },
+
+  {
+    "cardId":40,
+    "symbol":"INSECT",
+    "points":1,
+    "top_right": {
+      "symbol":"INSECT",
+      "type":"TOP_RIGHT"
+    },
+    "bot_left": {
+      "symbol":"EMPTY",
+      "type":"BOT_LEFT"
+    },
+    "bot_right": {
+      "symbol":"EMPTY",
+      "type":"BOT_RIGHT"
+    }
+  }
+]

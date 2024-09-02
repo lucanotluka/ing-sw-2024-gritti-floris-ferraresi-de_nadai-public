@@ -1,0 +1,1033 @@
+[
+  {
+    "cardId": 41,
+    "top_right": {
+      "type": "TOP_RIGHT",
+      "symbol": "EMPTY"
+    },
+    "bot_left": {
+      "type": "BOT_LEFT",
+      "symbol": "EMPTY"
+    },
+    "bot_right": {
+      "type": "BOT_RIGHT",
+      "symbol": "QUILL"
+    },
+    "points": 1,
+    "symbol": "FUNGI",
+    "pointsType": "QUILL",
+    "condition": [
+            {
+              "symbol": "FUNGI",
+              "quantity": 2
+            },
+            {
+              "symbol": "ANIMAL",
+              "quantity": 1
+            }
+    ]
+  },
+
+  {
+    "cardId": 42,
+    "top_left": {
+      "type": "TOP_LEFT",
+      "symbol": "EMPTY"
+    },
+    "top_right": {
+      "type": "TOP_RIGHT",
+      "symbol": "INKWELL"
+    },
+    "bot_right": {
+      "type": "BOT_RIGHT",
+      "symbol": "EMPTY"
+    },
+    "points": 1,
+    "symbol": "FUNGI",
+    "pointsType": "INKWELL",
+    "condition": [
+      {
+        "symbol": "FUNGI",
+        "quantity": 2
+      },
+      {
+        "symbol": "PLANT",
+        "quantity": 1
+      }
+    ]
+  },
+
+  {
+    "cardId": 43,
+    "top_left": {
+      "type": "TOP_LEFT",
+      "symbol": "MANUSCRIPT"
+    },
+    "top_right": {
+      "type": "TOP_RIGHT",
+      "symbol": "EMPTY"
+    },
+    "bot_left": {
+      "type": "BOT_LEFT",
+      "symbol": "EMPTY"
+    },
+    "points": 1,
+    "symbol": "FUNGI",
+    "pointsType": "MANUSCRIPT",
+    "condition": [
+      {
+        "symbol": "FUNGI",
+        "quantity": 2
+      },
+      {
+        "symbol": "INSECT",
+        "quantity": 1
+      }
+    ]
+  },
+
+  {
+    "cardId": 44,
+    "top_left": {
+      "type": "TOP_LEFT",
+      "symbol": "EMPTY"
+    },
+    "top_right": {
+      "type": "TOP_RIGHT",
+      "symbol": "EMPTY"
+    },
+    "bot_right": {
+      "type": "BOT_RIGHT",
+      "symbol": "EMPTY"
+    },
+    "points": 2,
+    "symbol": "FUNGI",
+    "pointsType": "CORNERS",
+    "condition": [
+      {
+        "symbol": "FUNGI",
+        "quantity": 3
+      },
+      {
+        "symbol": "ANIMAL",
+        "quantity": 1
+      }
+    ]
+  },
+
+  {
+    "cardId": 45,
+    "top_left": {
+      "type": "TOP_LEFT",
+      "symbol": "EMPTY"
+    },
+    "top_right": {
+      "type": "TOP_RIGHT",
+      "symbol": "EMPTY"
+    },
+    "bot_left": {
+      "type": "BOT_LEFT",
+      "symbol": "EMPTY"
+    },
+    "points": 2,
+    "symbol": "FUNGI",
+    "pointsType": "CORNERS",
+    "condition": [
+      {
+        "symbol": "FUNGI",
+        "quantity": 3
+      },
+      {
+        "symbol": "PLANT",
+        "quantity": 1
+      }
+    ]
+  },
+
+  {
+    "cardId": 46,
+    "top_left": {
+      "type": "TOP_LEFT",
+      "symbol": "EMPTY"
+    },
+    "bot_left": {
+      "type": "BOT_LEFT",
+      "symbol": "EMPTY"
+    },
+    "bot_right": {
+      "type": "BOT_RIGHT",
+      "symbol": "EMPTY"
+    },
+    "points": 2,
+    "symbol": "FUNGI",
+    "pointsType": "CORNERS",
+    "condition": [
+      {
+        "symbol": "FUNGI",
+        "quantity": 3
+      },
+      {
+        "symbol": "INSECT",
+        "quantity": 1
+      }
+    ]
+  },
+
+  {
+    "cardId": 47,
+    "top_left": {
+      "type": "TOP_LEFT",
+      "symbol": "EMPTY"
+    },
+    "bot_left": {
+      "type": "BOT_LEFT",
+      "symbol": "INKWELL"
+    },
+    "points": 3,
+    "symbol": "FUNGI",
+    "pointsType": "NULL",
+    "condition": [
+      {
+        "symbol": "FUNGI",
+        "quantity": 3
+      }
+    ]
+  },
+
+  {
+    "cardId": 48,
+    "top_left": {
+      "type": "TOP_LEFT",
+      "symbol": "QUILL"
+    },
+    "top_right": {
+      "type": "TOP_RIGHT",
+      "symbol": "EMPTY"
+    },
+    "points": 3,
+    "symbol": "FUNGI",
+    "pointsType": "NULL",
+    "condition": [
+      {
+        "symbol": "FUNGI",
+        "quantity": 3
+      }
+    ]
+  },
+
+  {
+    "cardId": 49,
+    "top_right": {
+      "type": "TOP_RIGHT",
+      "symbol": "MANUSCRIPT"
+    },
+    "bot_right": {
+      "type": "BOT_RIGHT",
+      "symbol": "EMPTY"
+    },
+    "points": 3,
+    "symbol": "FUNGI",
+    "pointsType": "NULL",
+    "condition": [
+      {
+        "symbol": "FUNGI",
+        "quantity": 3
+      }
+    ]
+  },
+
+  {
+    "cardId": 50,
+    "top_left": {
+      "type": "TOP_LEFT",
+      "symbol": "EMPTY"
+    },
+    "bot_left": {
+      "type": "BOT_LEFT",
+      "symbol": "EMPTY"
+    },
+    "points": 5,
+    "symbol": "FUNGI",
+    "pointsType": "NULL",
+    "condition": [
+      {
+        "symbol": "FUNGI",
+        "quantity": 5
+      }
+    ]
+  },
+
+  {
+    "cardId": 51,
+    "top_left": {
+      "type": "TOP_LEFT",
+      "symbol": "QUILL"
+    },
+    "top_right": {
+      "type": "TOP_RIGHT",
+      "symbol": "EMPTY"
+    },
+    "bot_left": {
+      "type": "BOT_LEFT",
+      "symbol": "EMPTY"
+    },
+    "points": 1,
+    "symbol": "PLANT",
+    "pointsType": "QUILL",
+    "condition": [
+      {
+        "symbol": "PLANT",
+        "quantity": 2
+      },
+      {
+        "symbol": "INSECT",
+        "quantity": 1
+      }
+    ]
+  },
+
+  {
+    "cardId": 52,
+    "top_left": {
+      "type": "TOP_LEFT",
+      "symbol": "EMPTY"
+    },
+    "top_right": {
+      "type": "TOP_RIGHT",
+      "symbol": "MANUSCRIPT"
+    },
+    "bot_right": {
+      "type": "BOT_RIGHT",
+      "symbol": "EMPTY"
+    },
+    "points": 1,
+    "symbol": "PLANT",
+    "pointsType": "MANUSCRIPT",
+    "condition": [
+      {
+        "symbol": "PLANT",
+        "quantity": 2
+      },
+      {
+        "symbol": "FUNGI",
+        "quantity": 1
+      }
+    ]
+  },
+
+  {
+    "cardId": 53,
+    "top_left": {
+      "type": "TOP_LEFT",
+      "symbol": "EMPTY"
+    },
+    "bot_left": {
+      "type": "BOT_LEFT",
+      "symbol": "INKWELL"
+    },
+    "bot_right": {
+      "type": "BOT_RIGHT",
+      "symbol": "EMPTY"
+    },
+    "points": 1,
+    "symbol": "PLANT",
+    "pointsType": "INKWELL",
+    "condition": [
+      {
+        "symbol": "PLANT",
+        "quantity": 2
+      },
+      {
+        "symbol": "ANIMAL",
+        "quantity": 1
+      }
+    ]
+  },
+
+  {
+    "cardId": 54,
+    "top_right": {
+      "type": "TOP_RIGHT",
+      "symbol": "EMPTY"
+    },
+    "bot_left": {
+      "type": "BOT_LEFT",
+      "symbol": "EMPTY"
+    },
+    "bot_right": {
+      "type": "BOT_RIGHT",
+      "symbol": "EMPTY"
+    },
+    "points": 2,
+    "symbol": "PLANT",
+    "pointsType": "CORNERS",
+    "condition": [
+      {
+        "symbol": "PLANT",
+        "quantity": 3
+      },
+      {
+        "symbol": "INSECT",
+        "quantity": 1
+      }
+    ]
+  },
+
+  {
+    "cardId": 55,
+    "top_left": {
+      "type": "TOP_LEFT",
+      "symbol": "EMPTY"
+    },
+    "top_right": {
+      "type": "TOP_RIGHT",
+      "symbol": "EMPTY"
+    },
+    "bot_left": {
+      "type": "BOT_LEFT",
+      "symbol": "EMPTY"
+    },
+    "points": 2,
+    "symbol": "PLANT",
+    "pointsType": "CORNERS",
+    "condition": [
+      {
+        "symbol": "PLANT",
+        "quantity": 3
+      },
+      {
+        "symbol": "ANIMAL",
+        "quantity": 1
+      }
+    ]
+  },
+
+  {
+    "cardId": 56,
+    "top_left": {
+      "type": "TOP_LEFT",
+      "symbol": "EMPTY"
+    },
+    "bot_left": {
+      "type": "BOT_LEFT",
+      "symbol": "EMPTY"
+    },
+    "bot_right": {
+      "type": "BOT_RIGHT",
+      "symbol": "EMPTY"
+    },
+    "points": 2,
+    "symbol": "PLANT",
+    "pointsType": "CORNERS",
+    "condition": [
+      {
+        "symbol": "PLANT",
+        "quantity": 3
+      },
+      {
+        "symbol": "FUNGI",
+        "quantity": 1
+      }
+    ]
+  },
+
+  {
+    "cardId": 57,
+    "top_left": {
+      "type": "TOP_LEFT",
+      "symbol": "EMPTY"
+    },
+    "bot_left": {
+      "type": "BOT_LEFT",
+      "symbol": "QUILL"
+    },
+    "points": 3,
+    "symbol": "PLANT",
+    "pointsType": "NULL",
+    "condition": [
+      {
+        "symbol": "PLANT",
+        "quantity": 3
+      }
+    ]
+  },
+
+  {
+    "cardId": 58,
+    "top_left": {
+      "type": "TOP_LEFT",
+      "symbol": "MANUSCRIPT"
+    },
+    "top_right": {
+      "type": "TOP_RIGHT",
+      "symbol": "EMPTY"
+    },
+    "points": 3,
+    "symbol": "PLANT",
+    "pointsType": "NULL",
+    "condition": [
+      {
+        "symbol": "PLANT",
+        "quantity": 3
+      }
+    ]
+  },
+
+  {
+    "cardId": 59,
+    "top_right": {
+      "type": "TOP_RIGHT",
+      "symbol": "INKWELL"
+    },
+    "bot_right": {
+      "type": "BOT_RIGHT",
+      "symbol": "EMPTY"
+    },
+    "points": 3,
+    "symbol": "PLANT",
+    "pointsType": "NULL",
+    "condition": [
+      {
+        "symbol": "PLANT",
+        "quantity": 3
+      }
+    ]
+  },
+
+  {
+    "cardId": 60,
+    "top_left": {
+      "type": "TOP_LEFT",
+      "symbol": "EMPTY"
+    },
+    "top_right": {
+      "type": "TOP_RIGHT",
+      "symbol": "EMPTY"
+    },
+    "points": 5,
+    "symbol": "PLANT",
+    "pointsType": "NULL",
+    "condition": [
+      {
+        "symbol": "PLANT",
+        "quantity": 5
+      }
+    ]
+  },
+
+  {
+    "cardId": 61,
+    "top_left": {
+      "type": "TOP_LEFT",
+      "symbol": "INKWELL"
+    },
+    "top_right": {
+      "type": "TOP_RIGHT",
+      "symbol": "EMPTY"
+    },
+    "bot_left": {
+      "type": "BOT_LEFT",
+      "symbol": "EMPTY"
+    },
+    "points": 1,
+    "symbol": "ANIMAL",
+    "pointsType": "INKWELL",
+    "condition": [
+      {
+        "symbol": "ANIMAL",
+        "quantity": 2
+      },
+      {
+        "symbol": "INSECT",
+        "quantity": 1
+      }
+    ]
+  },
+
+  {
+    "cardId": 62,
+    "top_right": {
+      "type": "TOP_RIGHT",
+      "symbol": "EMPTY"
+    },
+    "bot_left": {
+      "type": "BOT_LEFT",
+      "symbol": "EMPTY"
+    },
+    "bot_right": {
+      "type": "BOT_RIGHT",
+      "symbol": "MANUSCRIPT"
+    },
+    "points": 1,
+    "symbol": "ANIMAL",
+    "pointsType": "MANUSCRIPT",
+    "condition": [
+      {
+        "symbol": "ANIMAL",
+        "quantity": 2
+      },
+      {
+        "symbol": "PLANT",
+        "quantity": 1
+      }
+    ]
+  },
+
+  {
+    "cardId": 63,
+    "top_left": {
+      "type": "TOP_LEFT",
+      "symbol": "EMPTY"
+    },
+    "bot_left": {
+      "type": "BOT_LEFT",
+      "symbol": "QUILL"
+    },
+    "bot_right": {
+      "type": "BOT_RIGHT",
+      "symbol": "EMPTY"
+    },
+    "points": 1,
+    "symbol": "ANIMAL",
+    "pointsType": "QUILL",
+    "condition": [
+      {
+        "symbol": "ANIMAL",
+        "quantity": 2
+      },
+      {
+        "symbol": "FUNGI",
+        "quantity": 1
+      }
+    ]
+  },
+
+  {
+    "cardId": 64,
+    "top_left": {
+      "type": "TOP_LEFT",
+      "symbol": "EMPTY"
+    },
+    "top_right": {
+      "type": "TOP_RIGHT",
+      "symbol": "EMPTY"
+    },
+    "bot_right": {
+      "type": "BOT_RIGHT",
+      "symbol": "EMPTY"
+    },
+    "points": 2,
+    "symbol": "ANIMAL",
+    "pointsType": "CORNERS",
+    "condition": [
+      {
+        "symbol": "ANIMAL",
+        "quantity": 3
+      },
+      {
+        "symbol": "INSECT",
+        "quantity": 1
+      }
+    ]
+  },
+
+  {
+    "cardId": 65,
+    "top_left": {
+      "type": "TOP_LEFT",
+      "symbol": "EMPTY"
+    },
+    "bot_left": {
+      "type": "BOT_LEFT",
+      "symbol": "EMPTY"
+    },
+    "bot_right": {
+      "type": "BOT_RIGHT",
+      "symbol": "EMPTY"
+    },
+    "points": 2,
+    "symbol": "ANIMAL",
+    "pointsType": "CORNERS",
+    "condition": [
+      {
+        "symbol": "ANIMAL",
+        "quantity": 3
+      },
+      {
+        "symbol": "FUNGI",
+        "quantity": 1
+      }
+    ]
+  },
+
+  {
+    "cardId": 66,
+    "top_right": {
+      "type": "TOP_RIGHT",
+      "symbol": "EMPTY"
+    },
+    "bot_left": {
+      "type": "BOT_LEFT",
+      "symbol": "EMPTY"
+    },
+    "bot_right": {
+      "type": "BOT_RIGHT",
+      "symbol": "EMPTY"
+    },
+    "points": 2,
+    "symbol": "ANIMAL",
+    "pointsType": "CORNERS",
+    "condition": [
+      {
+        "symbol": "ANIMAL",
+        "quantity": 3
+      },
+      {
+        "symbol": "PLANT",
+        "quantity": 1
+      }
+    ]
+  },
+
+  {
+    "cardId": 67,
+    "top_left": {
+      "type": "TOP_LEFT",
+      "symbol": "EMPTY"
+    },
+    "bot_left": {
+      "type": "BOT_LEFT",
+      "symbol": "MANUSCRIPT"
+    },
+    "points": 3,
+    "symbol": "ANIMAL",
+    "pointsType": "NULL",
+    "condition": [
+      {
+        "symbol": "ANIMAL",
+        "quantity": 3
+      }
+    ]
+  },
+
+  {
+    "cardId": 68,
+    "top_left": {
+      "type": "TOP_LEFT",
+      "symbol": "EMPTY"
+    },
+    "top_right": {
+      "type": "TOP_RIGHT",
+      "symbol": "INKWELL"
+    },
+    "points": 3,
+    "symbol": "ANIMAL",
+    "pointsType": "NULL",
+    "condition": [
+      {
+        "symbol": "ANIMAL",
+        "quantity": 3
+      }
+    ]
+  },
+
+  {
+    "cardId": 69,
+    "top_right": {
+      "type": "TOP_RIGHT",
+      "symbol": "EMPTY"
+    },
+    "bot_right": {
+      "type": "BOT_RIGHT",
+      "symbol": "QUILL"
+    },
+    "points": 3,
+    "symbol": "ANIMAL",
+    "pointsType": "NULL",
+    "condition": [
+      {
+        "symbol": "ANIMAL",
+        "quantity": 3
+      }
+    ]
+  },
+
+  {
+    "cardId": 70,
+    "top_right": {
+      "type": "TOP_RIGHT",
+      "symbol": "EMPTY"
+    },
+    "bot_right": {
+      "type": "BOT_RIGHT",
+      "symbol": "EMPTY"
+    },
+    "points": 5,
+    "symbol": "ANIMAL",
+    "pointsType": "NULL",
+    "condition": [
+      {
+        "symbol": "ANIMAL",
+        "quantity": 5
+      }
+    ]
+  },
+
+  {
+    "cardId": 71,
+    "top_left": {
+      "type": "TOP_LEFT",
+      "symbol": "EMPTY"
+    },
+    "top_right": {
+      "type": "TOP_RIGHT",
+      "symbol": "QUILL"
+    },
+    "bot_right": {
+      "type": "BOT_RIGHT",
+      "symbol": "EMPTY"
+    },
+    "points": 1,
+    "symbol": "INSECT",
+    "pointsType": "QUILL",
+    "condition": [
+      {
+        "symbol": "INSECT",
+        "quantity": 2
+      },
+      {
+        "symbol": "PLANT",
+        "quantity": 1
+      }
+    ]
+  },
+
+  {
+    "cardId": 72,
+    "top_left": {
+      "type": "TOP_LEFT",
+      "symbol": "EMPTY"
+    },
+    "bot_left": {
+      "type": "BOT_LEFT",
+      "symbol": "MANUSCRIPT"
+    },
+    "bot_right": {
+      "type": "BOT_RIGHT",
+      "symbol": "EMPTY"
+    },
+    "points": 1,
+    "symbol": "INSECT",
+    "pointsType": "MANUSCRIPT",
+    "condition": [
+      {
+        "symbol": "INSECT",
+        "quantity": 2
+      },
+      {
+        "symbol": "ANIMAL",
+        "quantity": 1
+      }
+    ]
+  },
+
+  {
+    "cardId": 73,
+    "top_right": {
+      "type": "TOP_RIGHT",
+      "symbol": "EMPTY"
+    },
+    "bot_left": {
+      "type": "BOT_LEFT",
+      "symbol": "EMPTY"
+    },
+    "bot_right": {
+      "type": "BOT_RIGHT",
+      "symbol": "INKWELL"
+    },
+    "points": 1,
+    "symbol": "INSECT",
+    "pointsType": "INKWELL",
+    "condition": [
+      {
+        "symbol": "INSECT",
+        "quantity": 2
+      },
+      {
+        "symbol": "FUNGI",
+        "quantity": 1
+      }
+    ]
+  },
+
+  {
+    "cardId": 74,
+    "top_left": {
+      "type": "TOP_LEFT",
+      "symbol": "EMPTY"
+    },
+    "top_right": {
+      "type": "TOP_RIGHT",
+      "symbol": "EMPTY"
+    },
+    "bot_right": {
+      "type": "BOT_RIGHT",
+      "symbol": "EMPTY"
+    },
+    "points": 2,
+    "symbol": "INSECT",
+    "pointsType": "CORNERS",
+    "condition": [
+      {
+        "symbol": "INSECT",
+        "quantity": 3
+      },
+      {
+        "symbol": "ANIMAL",
+        "quantity": 1
+      }
+    ]
+  },
+
+  {
+    "cardId": 75,
+    "top_left": {
+      "type": "TOP_LEFT",
+      "symbol": "EMPTY"
+    },
+    "top_right": {
+      "type": "TOP_RIGHT",
+      "symbol": "EMPTY"
+    },
+    "bot_left": {
+      "type": "BOT_LEFT",
+      "symbol": "EMPTY"
+    },
+    "points": 2,
+    "symbol": "INSECT",
+    "pointsType": "CORNERS",
+    "condition": [
+      {
+        "symbol": "INSECT",
+        "quantity": 3
+      },
+      {
+        "symbol": "PLANT",
+        "quantity": 1
+      }
+    ]
+  },
+
+  {
+    "cardId": 76,
+    "top_left": {
+      "type": "TOP_LEFT",
+      "symbol": "EMPTY"
+    },
+    "bot_left": {
+      "type": "BOT_LEFT",
+      "symbol": "EMPTY"
+    },
+    "bot_right": {
+      "type": "BOT_RIGHT",
+      "symbol": "EMPTY"
+    },
+    "points": 2,
+    "symbol": "INSECT",
+    "pointsType": "CORNERS",
+    "condition": [
+      {
+        "symbol": "INSECT",
+        "quantity": 3
+      },
+      {
+        "symbol": "FUNGI",
+        "quantity": 1
+      }
+    ]
+  },
+
+  {
+    "cardId": 77,
+    "top_left": {
+      "type": "TOP_LEFT",
+      "symbol": "INKWELL"
+    },
+    "bot_left": {
+      "type": "BOT_LEFT",
+      "symbol": "EMPTY"
+    },
+    "points": 3,
+    "symbol": "INSECT",
+    "pointsType": "NULL",
+    "condition": [
+      {
+        "symbol": "INSECT",
+        "quantity": 3
+      }
+    ]
+  },
+
+  {
+    "cardId": 78,
+    "top_left": {
+      "type": "TOP_LEFT",
+      "symbol": "EMPTY"
+    },
+    "top_right": {
+      "type": "TOP_RIGHT",
+      "symbol": "MANUSCRIPT"
+    },
+    "points": 3,
+    "symbol": "INSECT",
+    "pointsType": "NULL",
+    "condition": [
+      {
+        "symbol": "INSECT",
+        "quantity": 3
+      }
+    ]
+  },
+
+  {
+    "cardId": 79,
+    "bot_left": {
+      "type": "BOT_LEFT",
+      "symbol": "QUILL"
+    },
+    "bot_right": {
+      "type": "BOT_RIGHT",
+      "symbol": "EMPTY"
+    },
+    "points": 3,
+    "symbol": "INSECT",
+    "pointsType": "NULL",
+    "condition": [
+      {
+        "symbol": "INSECT",
+        "quantity": 3
+      }
+    ]
+  },
+
+  {
+    "cardId": 80,
+    "top_left": {
+      "type": "TOP_LEFT",
+      "symbol": "EMPTY"
+    },
+    "top_right": {
+      "type": "TOP_RIGHT",
+      "symbol": "EMPTY"
+    },
+    "points": 5,
+    "symbol": "INSECT",
+    "pointsType": "NULL",
+    "condition": [
+      {
+        "symbol": "INSECT",
+        "quantity": 5
+      }
+    ]
+  }
+]

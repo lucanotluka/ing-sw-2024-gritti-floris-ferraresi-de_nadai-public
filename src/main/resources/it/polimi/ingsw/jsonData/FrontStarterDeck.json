@@ -1,0 +1,129 @@
+[
+  {
+    "cardId": 81,
+    "top_left": {
+      "type": "TOP_LEFT",
+      "symbol": "EMPTY"
+    },
+    "top_right": {
+      "type": "TOP_RIGHT",
+      "symbol": "PLANT"
+    },
+    "bot_left": {
+      "type": "BOT_LEFT",
+      "symbol": "INSECT"
+    },
+    "bot_right": {
+      "type": "BOT_RIGHT",
+      "symbol": "EMPTY"
+    },
+    "symbols": [
+      "INSECT"
+    ]
+  },
+
+  {
+    "cardId": 82,
+    "top_left": {
+      "type": "TOP_LEFT",
+      "symbol": "ANIMAL"
+    },
+    "top_right": {
+      "type": "TOP_RIGHT",
+      "symbol": "EMPTY"
+    },
+    "bot_left": {
+      "type": "BOT_LEFT",
+      "symbol": "EMPTY"
+    },
+    "bot_right": {
+      "type": "BOT_RIGHT",
+      "symbol": "FUNGI"
+    },
+    "symbols": [
+      "FUNGI"
+    ]
+  },
+
+  {
+    "cardId": 83,
+    "top_left": {
+      "type": "TOP_LEFT",
+      "symbol": "EMPTY"
+    },
+    "top_right": {
+      "type": "TOP_RIGHT",
+      "symbol": "EMPTY"
+    },
+    "bot_left": {
+      "type": "BOT_LEFT",
+      "symbol": "EMPTY"
+    },
+    "bot_right": {
+      "type": "BOT_RIGHT",
+      "symbol": "EMPTY"
+    },
+    "symbols": [
+      "FUNGI",
+      "PLANT"
+    ]
+  },
+
+  {
+    "cardId": 84,
+    "top_left": {
+      "type": "TOP_LEFT",
+      "symbol": "EMPTY"
+    },
+    "top_right": {
+      "type": "TOP_RIGHT",
+      "symbol": "EMPTY"
+    },
+    "bot_left": {
+      "type": "BOT_LEFT",
+      "symbol": "EMPTY"
+    },
+    "bot_right": {
+      "type": "BOT_RIGHT",
+      "symbol": "EMPTY"
+    },
+    "symbols": [
+      "ANIMAL",
+      "INSECT"
+    ]
+  },
+
+  {
+    "cardId": 85,
+    "top_left": {
+      "type": "TOP_LEFT",
+      "symbol": "EMPTY"
+    },
+    "top_right": {
+      "type": "TOP_RIGHT",
+      "symbol": "EMPTY"
+    },
+    "symbols": [
+      "ANIMAL",
+      "INSECT",
+      "PLANT"
+    ]
+  },
+
+  {
+    "cardId": 86,
+    "top_left": {
+      "type": "TOP_LEFT",
+      "symbol": "EMPTY"
+    },
+    "top_right": {
+      "type": "TOP_RIGHT",
+      "symbol": "EMPTY"
+    },
+    "symbols": [
+      "PLANT",
+      "ANIMAL",
+      "FUNGI"
+    ]
+  }
+]
