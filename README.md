@@ -6,7 +6,6 @@
 
 **Teacher:** San Pietro Pierluigi
 
-## Final evaluation
 The final vote is: **30/30**.
 
 
